@@ -1,0 +1,31 @@
+name: "Dapp"
+#mode: "release"
+mode: "dev"
+port: 8080
+version: "v0.1.0"
+start_time: "2023-3-13"
+machine_id: 1
+corpid:
+corpsecretWeb:
+corpsecretConfirm:
+msgtype: "text"
+agentid: 
+authID: ""
+
+
+log:
+  level: "DeBug"
+  filename: "web_log"
+  max_size: 200
+  max_age: 30
+  max_backups: 7
+
+
+mysql:
+ host: ""
+ port: 
+ user: "root"
+ password: ""
+ dbname: ""
+ max_conns: 200
+ max_idle_conns: 50
